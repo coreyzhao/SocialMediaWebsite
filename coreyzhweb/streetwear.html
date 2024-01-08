@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>coreyzh</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Lora:wght@400;500;700&family=Roboto:wght@300;400;500;700&display=swap" 
+    rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/stylesgrid.css">
+    <link rel="stylesheet" href="styles/bottom.css">
+    <link rel="stylesheet" href="styles/login.css">
+    <link rel="stylesheet" href="styles/signup.css">
+    <link rel="stylesheet" href="styles/search.css">
+    <link rel="stylesheet" href="styles/tiktokgrid.css">
+    <link rel="stylesheet" href="styles/favoritespopup.css">
+</head>
+
+<body>
+
+<!-- SEARCH POP UP -->
+    <section class="search-bg-screen js-search-bg-screen">
+        <div class="search-screen">
+            <div class="search-bar-container">
+                <div class="search-title"><p>Enter a date:</p></div>
+                <input class="search-bar" type="text" placeholder="MM-DD-YYYY">
+                <img class="search-icon" src="images/search.svg">
+                <img class="x-search-icon" src="images/x.png">
+            </div>
+        </div>
+    </section>
+
+<!-- LOGIN SCREEN -->
+    <section class="login-screen js-login-screen">
+        
+        <div class="login-popup">
+            <div><img class="x-login-icon js-x-icon" src="images/x.png"></div>
+            <div class="login-description">
+                <p class="signin-text">login menu !</p>
+                <p class="signin-description-text">Become a Member: save your favorite fits to your profile</p>
+            </div>
+            <div class="login-inputs">
+                <p class="input-name" >Email*</p>
+                <input class="input-bar" placeholder="Enter Email Here">
+            </div>
+            <div class="login-inputs">
+                <p class="input-name" >Password*</p>
+                <input class="input-bar" placeholder="Enter Password Here">
+                <div class="login-password-options">
+                    <div class="rememberme-container">Remember Me 
+                        <div><input class="checkbox rememberme-checkbox" type="checkbox" id="check">
+                        </div>  
+                    </div>
+                    <a><div class="forgot-password">Forgot Password?</div></a>
+                </div>
+            </div>
+            <div class="login-options">
+                <div class="login-button-container">
+                    <button class="signin-button">Sign in</button>
+                </div>
+            </div>
+            <div class="login-button-container">
+                <button class="create-account-button js-create-account-button">Create a new account</button>
+            </div>
+        </div>
+    </section>
+
+<!-- SIGN UP SCREEN -->
+
+    <section class="signup-screen js-signup-screen">
+        <div class="signup-popup">
+            <div><img class="x-sign-up-icon js-x-icon" src="images/x.png"></div>
+            <div class="login-description">
+                <p class="signup-text">sign up menu !</p>
+                <p class="signup-description-text">Become a Member: save your favorite fits to your profile</p>
+            </div>
+            <div class="login-inputs">
+                <p class="input-name" >Username*</p>
+                <input class="input-bar" placeholder="Enter Username Here">
+            </div>
+            <div class="login-inputs">
+                <p class="input-name" >Email*</p>
+                <input class="input-bar" placeholder="Enter Email Here">
+            </div>
+            <div class="login-inputs">
+                <p class="input-name" > Create a Password*</p>
+                <input class="input-bar" placeholder="Enter Password Here">
+            </div>
+            <div class="signup-options">
+                <div class="signup-button-container">
+                    <button class="signup-button">Create account</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- ADDED TO FAVORITES POP UP -->
+
+<section class="fav-bg-screen">
+    <div class="favorites-pop-up">
+        <div class="login-description">
+            <p class="favorites-popup-text">An item has been added to your favorites !</p>
+        </div>
+    </div>
+</section>
+
+<!-- ALREADY ADDED POP UP -->
+
+<section class="negative-fav-bg-screen">
+    <div class="favorites-pop-up">
+        <div class="login-description">
+            <p class="favorites-popup-text">You have already added this item.</p>
+        </div>
+    </div>
+</section>
+
+<!-- HEADER SECTION -->
+
+    <div class="header">
+        <div class="left-section">
+            <div class="dropdown-styles">
+                    <p class="styles-text">STYLES</p>
+                    <div class="dropdown-menu-styles">
+                        <a href="streetwear.html"><p class="dropdown-menu-text">Streetwear</p></a>
+                        <a href="smart-casual.html"><p class="dropdown-menu-text">Smart Casual</p></a>
+                        <a href="knitted-wear.html"><p class="dropdown-menu-text">Knitted Wear</p></a>
+                        <a href="outerwear.html"><p class="dropdown-menu-text">Outerwear</p></a>
+                        <a href="collaborations.html"><p class="dropdown-menu-text">Collaborations</p></a>
+                        <a href="miscellaneous.html"><p class="dropdown-menu-text">Miscellaneous</p></a>
+                    </div>
+            </div>
+            <div class="dropdown-accessories">
+                <p class="accessories-text">ACCESSORIES</p>
+                <div class="dropdown-menu-accessories">
+                    <a href="bags.html"><p class="dropdown-menu-text">Bags</p></a>
+                    <a href="jewlery.html"><p class="dropdown-menu-text">Jewlery</p></a>
+                    <a href="shoes.html"><p class="dropdown-menu-text">Shoes</p></a>
+                </div>
+            </div>
+           
+        </div>
+        <div class="middle-section">
+            <a href="home.html">
+                <div class="coreyzh-text">
+                coreyzh
+                </div>
+            </a>
+        </div>
+        <div class="right-section">
+            <a href="favorites.html">
+                <div class="favorites-container">
+                    <div class="fav-count">
+                        <div class="fav-circle">
+                            <p class="fav-number"></p>
+                        </div>
+                    </div>
+                    <button class="favorites-button js-favorites-button">FAVORITES</button>
+                </div>
+            </a>
+            <div class="search-container">
+                <button class="search-button js-search-button">SEARCH</button>
+            </div>
+            <div class="login-container">
+                <button class="login-button js-login-button"></button>
+            </div>
+            
+        </div>
+    </div>
+
+<!-- DESCRIPTION TEXT -->
+    <section>
+        <div class="description-text">
+            You are now viewing sreetwear outfits
+        </div>
+    </section>
+
+<!-- TIKTOK GRID -->
+
+    <section class="tiktok-grid">
+        <div class="tiktok-preview 071923">
+            <div class="tiktok-video-container">
+                <video class="tiktok-video" width="700px" height="500px" autoplay loop muted>
+                    <source src="tiktoks/graphic-tee.mp4">
+                </video>
+            </div>
+            <div class="tiktok-description-container">
+                <div class="tiktok-description">
+                    <p class="tiktok-description-title">FEATURED</p>
+                    <p class="tiktok-description-subtitle">07-19-2023</p>
+                    <hr class="line">
+                    <a href="https://renaissancequebec.ca/en/" target="_blank"><p class="tiktok-description-text">Thrifted Graphic-tee</p></a>
+                    <a href="https://www.urbanoutfitters.com/en-ca/shop/urban-renewal-vintage-overdyed-wind-pant2?category=SEARCHRESULTS&color=001&searchparams=q%3Dpants%2520renewal%2520black&type=REGULAR&size=ONE%20SIZE&quantity=1" target="_blank"><p class="tiktok-description-text">Parachute Pants</p></a>
+                    <a href="https://oldnavy.gapcanada.ca/browse/product.do?pid=209763#pdp-page-content" target="_blank"><p class="tiktok-description-text">Tank Top</p></a>
+                    <a href="https://renaissancequebec.ca/en/" target="_blank"><p class="tiktok-description-text">Thrifted Crossbody Bag</p></a>
+                    <hr class="line">
+                    <button class="button-add-to-favorites">
+                        <p>ADD FIT TO FAVORITES</p>
+                    </button>
+                </div>
+            </div>
+        </div>
+        
+        <div class="tiktok-preview">
+            <div class="tiktok-video-container">
+                <video class="tiktok-video" width="700px" height="500px" autoplay loop muted>
+                    <source src="tiktoks/jorts.mp4">
+                </video>
+            </div>
+            <div class="tiktok-description-container">
+                <div class="tiktok-description">
+                    <p class="tiktok-description-title">FEATURED</p>
+                    <p class="tiktok-description-subtitle">07-24-2023</p>
+                    <hr class="line">
+                    <a href="https://carhartt-wip.jp/products/i031714-23s-1coxx?_pos=28&_sid=1e3ed2a62&_ss=r" target="_blank"><p class="tiktok-description-text">Carhartt Graphic-tee</p></a>
+                    <a href="https://www.urbanoutfitters.com/en-ca/shop/peau-de-loup-x-skate-like-a-girl-uo-exclusive-carpenter-short?category=SEARCHRESULTS&color=001&searchparams=q%3Dblack%2520carpenter%2520shorts%2520men&type=REGULAR&quantity=1" target="_blank"><p class="tiktok-description-text">Black Jorts</p></a>
+                    <a href="https://www.uniqlo.com/ca/en/products/E433037-000?colorCode=COL09&sizeCode=SMA002" target="_blank"><p class="tiktok-description-text">Uniqlo Long Sleeve</p></a>
+                    <a href="https://www.uniqlo.com/ca/en/products/E461841-000?colorCode=COL30" target="_blank"><p class="tiktok-description-text">Uniqlo Drawstring Bag</p></a>
+                    <hr class="line">
+                    <button class="button-add-to-favorites">
+                        <p>ADD FIT TO FAVORITES</p>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="tiktok-preview">
+            <div class="tiktok-video-container">
+                <video class="tiktok-video" width="700px" height="500px" autoplay loop muted>
+                    <source src="tiktoks/black-lightblue.mp4">
+                </video>
+            </div>
+            <div class="tiktok-description-container">
+                <div class="tiktok-description">
+                    <p class="tiktok-description-title">FEATURED</p>
+                    <p class="tiktok-description-subtitle">07-07-2023</p>
+                    <hr class="line">
+                    <a href="https://golfwang.com/collections/tees/products/stb-tee?variant=42248283488428/" target="_blank"><p class="tiktok-description-text">STB Graphic-tee</p></a>
+                    <a href="https://renaissancequebec.ca/en/" target="_blank"><p class="tiktok-description-text">Thrifted Carhartt Carpenters</p></a>
+                    <a href="https://www.uniqlo.com/ca/en/products/E433037-000?colorCode=COL09&sizeCode=SMA002" target="_blank"><p class="tiktok-description-text">Uniqlo Long Sleeve</p></a>
+                    <a href="https://www.uniqlo.com/ca/en/products/E461841-000?colorCode=COL30" target="_blank"><p class="tiktok-description-text">Uniqlo Drawstring Bag</p></a>
+                    <hr class="line">
+                    <button class="button-add-to-favorites">
+                        <p>ADD FIT TO FAVORITES</p>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="tiktok-preview">
+            <div class="tiktok-video-container">
+                <video class="tiktok-video" width="700px" height="500px" autoplay loop muted>
+                    <source src="tiktoks/grptee-cargos.mp4">
+                </video>
+            </div>
+            <div class="tiktok-description-container">
+                <div class="tiktok-description">
+                    <p class="tiktok-description-title">FEATURED</p>
+                    <p class="tiktok-description-subtitle">07-01-2023</p>
+                    <hr class="line">
+                    <a href="https://supplier-tokyo.com/en/collections/vendors?q=TGNS" target="_blank"><p class="tiktok-description-text">TGNS Graphic-tee</p></a>
+                    <a href="https://www.aelfriceden.com/products/aelfric-eden-webbing-multi-pocket-cargo-pants?variant=43333715460258" target="_blank"><p class="tiktok-description-text">Cargo Pants</p></a>
+                    <a href="https://oldnavy.gapcanada.ca/browse/product.do?pid=209763#pdp-page-content" target="_blank"><p class="tiktok-description-text">Tank Top</p></a>
+                    <a href="https://www.uniqlo.com/ca/en/products/E461841-000?colorCode=COL30" target="_blank"><p class="tiktok-description-text">Uniqlo Drawstring Bag</p></a>
+                    <hr class="line">
+                    <button class="button-add-to-favorites">
+                        <p>ADD FIT TO FAVORITES</p>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="tiktok-preview">
+            <div class="tiktok-video-container">
+                <video class="tiktok-video" width="700px" height="500px" autoplay loop muted>
+                    <source src="tiktoks/grptee-carpenters.mp4">
+                </video>
+            </div>
+            <div class="tiktok-description-container">
+                <div class="tiktok-description">
+                    <p class="tiktok-description-title">FEATURED</p>
+                    <p class="tiktok-description-subtitle">06-25-2023</p>
+                    <hr class="line">
+                    <a href="https://carhartt-wip.jp/products/i031714-23s-1coxx?_pos=28&_sid=1e3ed2a62&_ss=r" target="_blank"><p class="tiktok-description-text">Carhartt Graphic-tee</p></a>
+                    <a href="https://renaissancequebec.ca/en/" target="_blank"><p class="tiktok-description-text">Thrifted Carhartt Carpenters</p></a>
+                    <a href="https://www.uniqlo.com/ca/en/products/E433037-000?colorCode=COL09&sizeCode=SMA002" target="_blank"><p class="tiktok-description-text">Uniqlo Long Sleeve</p></a>
+                    <a href="https://www.uniqlo.com/ca/en/products/E461841-000?colorCode=COL30" target="_blank"><p class="tiktok-description-text">Uniqlo Drawstring Bag</p></a>
+                    <hr class="line">
+                    <button class="button-add-to-favorites">
+                        <p>ADD FIT TO FAVORITES</p>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="tiktok-preview">
+            <div class="tiktok-video-container">
+                <video class="tiktok-video" width="700px" height="500px" autoplay loop muted>
+                    <source src="tiktoks/grptee-long.mp4">
+                </video>
+            </div>
+            <div class="tiktok-description-container">
+                <div class="tiktok-description">
+                    <p class="tiktok-description-title">FEATURED</p>
+                    <p class="tiktok-description-subtitle">06-08-2023</p>
+                    <hr class="line">
+                    <a href="https://renaissancequebec.ca/en/" target="_blank"><p class="tiktok-description-text">Thrifted Graphic-tee</p></a>
+                    <a href="https://renaissancequebec.ca/en/" target="_blank"><p class="tiktok-description-text">Thrifted Cargo Pants</p></a>
+                    <a href="https://www.uniqlo.com/ca/en/products/E433037-000?colorCode=COL09&sizeCode=SMA002" target="_blank"><p class="tiktok-description-text">Uniqlo Long Sleeve</p></a>
+                    <a href="https://www.uniqlo.com/ca/en/products/E461841-000?colorCode=COL30" target="_blank"><p class="tiktok-description-text">Uniqlo Drawstring Bag</p></a>
+                    <hr class="line">
+                    <button class="button-add-to-favorites">
+                        <p>ADD FIT TO FAVORITES</p>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="tiktok-preview 05-05-23">
+            <div class="tiktok-video-container">
+                <video class="tiktok-video" width="700px" height="500px" autoplay loop muted>
+                    <source src="tiktoks/fit1.mp4">
+                </video>
+            </div>
+            <div class="tiktok-description-container">
+                <div class="tiktok-description">
+                    <p class="tiktok-description-title">FEATURED</p>
+                    <p class="tiktok-description-subtitle">05-05-2023</p>
+                    <hr class="line">
+                    <a href="https://renaissancequebec.ca/en/" target="_blank"><p class="tiktok-description-text">Thrifted Graphic-tee</p></a>
+                    <a href="https://renaissancequebec.ca/en/" target="_blank"><p class="tiktok-description-text">Thrifted Cargo Pants</p></a>
+                    <a href="https://www.uniqlo.com/ca/en/products/E433037-000?colorCode=COL09&sizeCode=SMA002" target="_blank"><p class="tiktok-description-text">Uniqlo Long Sleeve</p></a>
+                    <a href="https://www.uniqlo.com/ca/en/products/E461841-000?colorCode=COL30" target="_blank"><p class="tiktok-description-text">Uniqlo Drawstring Bag</p></a>
+                    <hr class="line">
+                    <button class="button-add-to-favorites js-05-05-23">
+                        <p>ADD FIT TO FAVORITES</p>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    
+<!-- BOTTOM PAGE -->
+
+    <section class="bottom-page">
+        <div class="bottom-styles">
+            <div><p class="bottom-page-title">STYLES</p></div>
+            <div class="bottom-page-container-styles">
+                <a href="streetwear.html"><p class="bottom-page-text">Streetwear</p></a>
+                <a href="smart-casual.html"><p class="bottom-page-text">Smart Casual</p></a>
+                <a href="knitted-wear.html"><p class="bottom-page-text">Knitted Wear</p></a>
+                <a href="outerwear.html"><p class="bottom-page-text">Outerwear</p></a>
+                <a href="collaborations.html"><p class="bottom-page-text">Collaborations</p></a>
+                <a href="miscellaneous.html"><p class="bottom-page-text">Miscellaneous</p></a>
+            </div>
+            <div><p class="bottom-page-title">ACCESSORIES</p></div>
+            <div class="bottom-page-container-accessories">
+                <a href="bags.html"><p class="bottom-page-text">Bags</p></a>
+                <a href="jewlery.html"><p class="bottom-page-text">Jewlery</p></a>
+                <a href="shoes.html"><p class="bottom-page-text">Shoes</p></a>
+            </div>
+        </div>
+        <div class="socials-container">
+            <a href="https://www.instagram.com/coreyzh_/" target="_blank"><img class="socials-images" src="images/insta.png"></a>
+            <a href="https://www.tiktok.com/@corey.zh?is_from_webapp=1&sender_device=pc" target="_blank"><img class="socials-images" src="images/tiktok.png"></a>
+            <a href="https://www.youtube.com/channel/UCby8pCwoSRFggkmQDk4IP8w" target="_blank"><img class="socials-images" src="images/youtube.png"></a>
+        </div>
+        <div class="bottom-description-container">
+            <p class="bottom-description-text">coreyzh.inquiries@gmail.com</p>
+        </div>
+    </section>
+    <script src="scripts/login.js"></script>
+    <script src="scripts/search.js"></script>
+    <script src="scripts/favorites.js"></script>
+</body>
+</html>

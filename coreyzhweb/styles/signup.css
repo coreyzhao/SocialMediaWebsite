@@ -1,0 +1,92 @@
+.signup-screen {
+    z-index: 100;
+    background-color: rgba(46, 46, 46, 0.9);
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    display: none;
+}
+
+.x-sign-up-icon {
+    position: absolute;
+    height: 32px;
+    right: 8px;
+    top: 6px;
+    cursor: pointer;
+}
+
+.signup-popup {
+    position: relative;
+    background-color: rgb(250, 247, 247);
+    height: 500px;
+    width: 500px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding-top: 20px;
+}
+
+
+.signup-text {
+    font-family: Lora;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 9px;
+}
+
+.signup-description-text {
+    font-family: Lora;
+    font-size: 13px;
+    text-align: center;
+    margin-top: 8px;
+    margin-bottom: 40px;
+}
+
+.login-inputs {
+    position: relative;
+    width: max-content;
+    margin: auto;
+    display: block;
+}
+
+.input-name {
+    margin: 0px 0px 4px 8px;
+    font-size: 14px;
+}
+
+.input-bar {
+    font-size: 14.5px;
+    font-family: Roboto;
+    width: 440px;
+    height: 40px;
+    padding-left: 9px;
+    border: 1px solid rgb(136, 136, 136);
+    outline: none;
+    margin-bottom: 17px;
+}
+
+.signup-options {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    margin-top: 15px;
+}
+
+.signup-button {
+    border: none;
+    background-color: rgb(51, 51, 51);
+    color: white;
+    padding: 15px 28px 15px 28px;
+    border-radius: 8px;
+    cursor: pointer;
+    display: block;
+}
+
+.signup-button-container {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+

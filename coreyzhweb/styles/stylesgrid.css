@@ -1,0 +1,48 @@
+.styles-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 29px;
+    row-gap: 60px;
+    justify-content: center;
+    justify-content: space-between;
+    margin-left: 38px;
+    margin-right: 38px;
+}
+
+.style-container {
+    height: fit-content;
+   
+}
+
+.style-container-image {
+    width: 100%;
+    border-radius: 4px;
+    box-shadow: 7px 7px 5px rgba(0,0,0,0.15);
+    transition: height, margin-bottom 0.1s;
+    cursor: pointer;
+   
+}
+
+.style-container:hover {
+    transform: scale(0.97);
+    background-color: rgba(0,0,0, 0.1);
+    padding: 8px 14px 3px 14px;
+    border-radius: 10px;
+}
+
+.style-container-text {
+    text-align: center;
+    font-family: Lora;
+    font-size: 18px;
+    margin-bottom: 5px;
+    margin-top: 8px;
+}
+
+.style-container-description {
+    font-family: Lato;
+    font-size: 14px;
+    
+}
+
+
+

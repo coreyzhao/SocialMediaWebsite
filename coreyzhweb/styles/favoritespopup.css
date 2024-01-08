@@ -1,0 +1,36 @@
+.fav-bg-screen {
+    z-index: 100;
+    background-color: transparent;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    display: none;
+}
+
+.favorites-pop-up {
+    position: relative;
+    background-color: rgb(250, 247, 247);
+    width: 200px;
+    left: 50px;
+    top: 95px;
+    padding: 8px 18px;
+    border-radius: 15px;
+    box-shadow: 3px 3px 3px rgb(0, 0, 0, 0.15);
+}
+
+.favorites-popup-text {
+    font-family: Lora;
+    font-size: 15px;
+    text-align: center;
+}
+
+.negative-fav-bg-screen {
+    z-index: 100;
+    background-color: transparent;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    display: none;
+}

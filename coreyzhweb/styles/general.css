@@ -1,0 +1,35 @@
+body {
+    margin: 0 0 0 0;
+    font-family: Lato, Arial;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    text-decoration: none;
+    color: black;
+} 
+
+a:active {
+    text-decoration: none;
+    color: black;
+} 
+
+video {
+    margin: 0;
+    padding: 0;
+}
+
+.checkbox {
+    margin: 0;
+    padding: 0;
+}
+
